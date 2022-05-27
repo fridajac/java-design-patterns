@@ -4,22 +4,13 @@ import java.util.Scanner;
 
 public class EnemyShipTesting {
 
-    /*
-    Example below shows how we do this WITHOUT the Factory pattern.
-     */
     public static void main(String[] args) {
+        EnemyShipFactory factory = new EnemyShipFactory();
         EnemyShip theEnemy = null;
         Scanner userInput = new Scanner(System.in);
-        String enemyShipOption = "";
         System.out.println("What type of ship? (U / R)");
         if(userInput.hasNextLine()){
-            enemyShipOption = userInput.next();
-        }
-        if(enemyShipOption.equals("U")){
-            theEnemy = new UFOEnemyShip();
-        }
-        else{
-            theEnemy = new RocketEnemyShip();
+            theEnemy = factory.makeEnemyShip(userInput.nextLine());
         }
         doStuffEnemu(theEnemy);
     }
