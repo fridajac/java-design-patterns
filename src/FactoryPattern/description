@@ -1,0 +1,6 @@
+When to use this pattern?
+
+-When we doesn't know ahead of time what class object you need
+-We want have classes chosen at runtime
+-All these classes needs to be of the same superclass
+-To encapsulate object creation
