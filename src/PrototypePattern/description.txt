@@ -1,0 +1,5 @@
+Delegates the object duplication or cloning process to the actual objects that are being cloned
+Create new objects by coping old objects
+
+You will need:
+-An interface for all objects that support cloning
