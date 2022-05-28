@@ -1,0 +1,3 @@
+Get two incompatible interfaces to work together (just like an adapter).
+
+Solves the issue that all classes must implement every method defined by the shared interface.
