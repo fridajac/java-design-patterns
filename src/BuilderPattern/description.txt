@@ -1,0 +1,4 @@
+When we want to build an object from a bunch of other objects
+And when we want to build an object made up from other objects, and the creation of these parts to be independent.
+Hide the creation of the parts from the clients
+Only the builder knows the specifics and nobody else does
