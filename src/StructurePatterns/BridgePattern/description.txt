@@ -1,0 +1,6 @@
+Decouple an abstraction from its implementation so that the two can vary dependently
+
+When we are trying to extend a class in two independent dimensions
+Common issues with class inheritance.
+
+The pattern solves this problem by switching from inheritance to the object composition.
